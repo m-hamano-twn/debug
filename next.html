@@ -59,7 +59,7 @@ min-height:500px;
     await get_cartbutton();
 
     // get_cartbutton関数の実行が完了した後に行いたい処理をここに記述する
-    console.log("get_cartbutton関数の実行が完了しました。");
+    console.log("get_cartbutton関数の実行2が完了しました。");
 
     // 他の処理を追加する
 }
@@ -71,7 +71,7 @@ async function get_cartbutton() {
     // この例では、setTimeoutを使って非同期な処理を模倣しています
     return new Promise(resolve => {
         setTimeout(() => {
-            console.log("get_cartbutton関数の実行が完了しました。");
+            console.log("get_cartbutton関数の実行1が完了しました。");
             resolve();
         }, 2000); // 2秒間待つ
     });
